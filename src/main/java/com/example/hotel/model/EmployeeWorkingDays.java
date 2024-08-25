@@ -15,7 +15,7 @@ public class EmployeeWorkingDays {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    private int id;
+    private long id;
 
     private String dayOfWeek;
 
