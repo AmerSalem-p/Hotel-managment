@@ -1,11 +1,8 @@
 package com.example.hotel.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 
-import javax.annotation.processing.Generated;
-import javax.persistence.*;
 import java.util.Date;
 
 

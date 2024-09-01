@@ -3,13 +3,9 @@ package com.example.hotel.model;
 import com.example.hotel.enums.RoomStatus;
 import com.example.hotel.enums.RoomType;
 import jakarta.persistence.Entity;
+import jakarta.persistence.*;
 import jakarta.persistence.Id;
 import lombok.Data;
-
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 
 @Data
 @Entity

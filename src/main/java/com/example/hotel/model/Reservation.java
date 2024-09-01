@@ -2,11 +2,11 @@ package com.example.hotel.model;
 
 import com.example.hotel.enums.ReservationStatus;
 
+import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.Date;
 import java.util.List;
-import javax.persistence.*;
 @Data
 @Entity
 public class Reservation {

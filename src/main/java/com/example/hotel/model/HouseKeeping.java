@@ -2,10 +2,7 @@ package com.example.hotel.model;
 
 
 import com.example.hotel.enums.HouseKeepingStatus;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 public class HouseKeeping {
